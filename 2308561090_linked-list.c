@@ -82,11 +82,11 @@ int main()
             case 3:
                 if (isEmpty())
                 {
-                    printf("Linked list kosong!\n");
+                    printf("Linked list dalam keadaan kosong\n");
                 }
                 else
                 {
-                    printf("Linked list tidak kosong!\n");
+                    printf("Linked list dalam keadaan isi\n");
                 }
                 system ("pause");
                 system("cls");
@@ -94,7 +94,9 @@ int main()
             case 4:
                 exit(0);
             default:
-                printf("Pilihan tidak valid!\n");
+                printf("Pilihan tidak valid, masukkan pilihan yang valid (1-4)\n");
+                system ("pause");
+                system("cls");
         }
         print();
     }
